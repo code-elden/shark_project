@@ -34,9 +34,9 @@
 
             <div class="card-body">
                 <p>
-                    Nuestra tienda de aparatos electrónicos Techno Shark tiene
-                    el propósito de vender productos de marcas reconocidas para
-                    una mejor calidad y asi tener la confianza de nuestros clientes.
+                Nuestra tienda de aparatos electrónicos Techno Shark tiene
+                el propósito de vender productos de marcas reconocidas para
+                una mejor calidad y asi tener la confianza de nuestros clientes.
                 </p>
             </div>
         </div>
