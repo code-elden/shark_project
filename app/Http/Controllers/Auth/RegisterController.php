@@ -113,6 +113,27 @@ class RegisterController extends Controller
         } catch (\Throwable $th) {
             return back()->with('error', $th->getMessage());
         }
-        
+    }
+
+    public function createDefault()
+    {
+        if (count(Rol::all()) == 0) {
+            Rol::create(['nombre' => 'Administrador']);
+            Rol::create(['nombre' => 'Usuario']);
+
+            return User::create([
+                'dni' => 'Default',
+                'nombres' => 'Default',
+                'apellidos' => 'Default',
+                'direccion' => 'Default',
+                'telefono' => 'Default',
+                'email' => 'admin@gmail.com',
+                'password' => Hash::make('admin'),
+                'rol_id' => 1,
+            ]);
+
+            return redirect()->route('/');
+        }
+        return back()->with('error', 'Ya tiene registros');
     }
 }
