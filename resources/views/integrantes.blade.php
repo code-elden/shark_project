@@ -11,6 +11,7 @@
                     <li>Integrante 1</li>
                     <li>Integrante 2</li>
                     <li>Integrante 3</li>
+                    <li>Integrante 4</li>
                 </ul>
             </div>
         </div>
