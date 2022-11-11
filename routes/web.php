@@ -33,7 +33,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::post('/register/user', [RegisterController::class, 'registerUser'])->name('register.user');
-Route::post('/register/create-default', [RegisterController::class, 'createDefault'])->name('register.default');
+Route::get('/register/create-default', [RegisterController::class, 'createDefault'])->name('register.default');
 
 Route::get('/roles', [RolController::class, 'index'])->name('roles');
 Route::get('/rol/create', [RolController::class, 'create'])->name('rol.create');
