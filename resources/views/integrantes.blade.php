@@ -11,7 +11,7 @@
                     <li>Fierro Castro Hamms U19211659</li>
                     <li>Angel Paucara Mamani U19313417</li>
                     <li>Juan Jesus Lozano Vivar U20247690</li>
-                    <li>José Luis Valladolid Oregón U19213867</li>
+                    <li>Jose Luis Valladolid Oregón U19213867</li>
                     <li>Roberto Alonso Conislla Ramos U19300665</li>
                 </ul>
             </div>
